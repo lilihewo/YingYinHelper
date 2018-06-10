@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_player"
+    tools:context=".MusicPlayerActivity" >
+
+    <!-- 1.top -->
+
+    <!-- 2.bottom -->
+    <include
+        android:id="@+id/include_bottom_id"
+        layout="@layout/include_bottom" />
+
+    
+    <!-- 3.center -->
+    <com.lili.views.ScrollableViewGroup
+        android:id="@+id/svg_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/include_bottom_id" >
+
+        <include layout="@layout/include_page_list" />
+        <include layout="@layout/include_page_lrc" />
+    </com.lili.views.ScrollableViewGroup>
+
+</RelativeLayout>

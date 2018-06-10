@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<ImageButton 
+	    android:id="@+id/playLocalVideo"
+	    android:onClick="playLocalVideo"
+	    android:background="@drawable/local_video"
+	  	android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="270dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/playLocalVideo"
+	    android:layout_centerHorizontal="true"
+	    android:text="本地视频"
+		android:textSize="8pt" />
+	
+	<ImageButton 
+	    android:id="@+id/playLocalMusic"
+	    android:onClick="playLocalMusic"
+	    android:background="@drawable/local_music"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="150dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/playLocalMusic"
+	    android:layout_centerHorizontal="true"
+	    android:text="本地音乐"
+	    android:textSize="8pt" />
+	
+	<ImageButton 
+	    android:id="@+id/playOnlineVideo"
+	    android:onClick="playOnlineVideo"
+	    android:background="@drawable/online"
+	  	android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="30dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/playOnlineVideo"
+	    android:layout_centerHorizontal="true"
+	    android:text="在线视频"
+	    android:textSize="8pt" />
+
+
+	
+
+		
+</RelativeLayout>

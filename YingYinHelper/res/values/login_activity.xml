@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="login_button">登录</string>
+        <string name="input_account_hint">用户名</string>
+        <string name="input_password_hint">密码</string>
+        <string name="new_user_register_button">新用户注册</string>
+</resources>

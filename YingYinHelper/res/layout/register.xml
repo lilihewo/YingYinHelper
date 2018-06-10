@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/angle_button"
+        android:onClick="register"
+        android:text="注册"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+ 
+
+	<EditText
+	    android:id="@+id/register_account"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:hint="用户名"
+        android:background="@drawable/et_underline_selector"
+        android:textSize="20sp" />
+	
+	<EditText
+	    android:id="@+id/register_password"
+	    android:layout_width="230dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="200dp"
+	    android:background="@drawable/et_underline_selector"
+	    android:hint="密码"
+	    android:inputType="number"
+	    android:singleLine="true"
+	    android:textSize="20sp" />
+	
+	<EditText
+	    android:id="@+id/email"
+	    android:layout_width="230dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="150dp"
+	    android:background="@drawable/et_underline_selector"
+	    android:hint="邮箱（用于找回密码）"
+	    android:singleLine="true"
+	    android:textSize="20sp" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

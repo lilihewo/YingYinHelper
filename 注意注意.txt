@@ -1,0 +1,1 @@
+InitActivity是YingYinHelper的依赖项目。
